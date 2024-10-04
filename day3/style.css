@@ -1,0 +1,90 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar{
+border: none;   
+border-radius: 20px;
+ display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(236, 220, 247);
+
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottombar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+.midicons{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    margin: 5px;
+    padding: 5px;
+    font-size: 80px;
+}
+button{
+    margin: 2px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    transition: transform 0.2s ease; /* Smooth transition */
+
+}
+
+button:hover {
+    border: none;
+    background-color: rgb(167, 239, 239);
+    box-shadow: 0px 8px 15px rgba(5, 5, 5, 0.3); /* Adds a shadow effect */
+
+    transform: scale(1.3); /* Enlarges the button by 10% on hover */
+}
+.log{
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+
+}
+.contentbox{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    transition: transform 0.2s ease; /* Smooth transition */
+
+}
+img:hover{
+    transform: scale(1.2); /
+}
